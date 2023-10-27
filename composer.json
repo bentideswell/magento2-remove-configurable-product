@@ -1,8 +1,7 @@
 {
     "name": "fishpig/magento2-remove-configurable-product",
     "description": "Remove the Magento_ConfigurableProduct module",
-    "type": "project",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "Magento\\ConfigurableProduct\\": "Mock/Magento/ConfigurableProduct"
