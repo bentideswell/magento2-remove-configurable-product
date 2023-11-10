@@ -1,19 +1,19 @@
 {
     "name": "fishpig/magento2-remove-configurable-product",
-    "description": "Remove the Magento_ConfigurableProduct module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "autoload": {
         "psr-4": {
             "Magento\\ConfigurableProduct\\": "Mock/Magento/ConfigurableProduct"
         }
     },
-    "replace": {       
+    "replace": {
        "magento/module-configurable-product": "*",
         "magento/module-configurable-product-sales": "*",
         "magento/module-configurable-product-graph-ql": "*",
-        "magento/module-inventory-configurable-product": "*",       
+        "magento/module-inventory-configurable-product": "*",
         "magento/module-inventory-configurable-product-admin-ui": "*",
         "magento/module-inventory-configurable-product-frontend-ui": "*",
-        "magento/module-inventory-configurable-product-indexer": "*"
+        "magento/module-inventory-configurable-product-indexer": "*",
+        "magento/module-catalog-rule-configurable": "*"
     }
 }
